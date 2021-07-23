@@ -31,7 +31,7 @@ crop_img = img3.crop(crop_pixle)
 crop_img.show()
 crop_img.save("crop_squirtle.png", "png")
 
-img4 = Image.open(r"./image_env/astro.jpg")
+img4 = Image.open(r"./image_env/pikachu.jpg")
 img4.thumbnail((400, 400))
 img4.save('thumbnail.png', 'png')
 print(img4.size)
